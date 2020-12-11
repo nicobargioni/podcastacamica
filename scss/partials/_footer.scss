@@ -1,0 +1,47 @@
+footer{
+    margin-top: 10px;
+}
+
+i{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    width: auto;
+    
+}
+
+footer .i{
+    margin-top: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul{
+    padding: 0 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+    
+}
+
+footer a{
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    
+}
+
+footer li{
+    list-style: none;
+}
+
+
+
+

@@ -1,0 +1,45 @@
+@media screen and(min-width: 1000px){
+    
+    // MENU HAMBURGUESA
+    .menu{
+        input,
+        span{
+            display: none;
+        }
+
+        a{
+            padding: 0;
+            line-height: 1;
+            color: black !important;
+            &:hover{
+                color: #00F3BB !important;
+                text-decoration: line-through;
+            }
+
+            &:active{
+                color: grey !important;
+                text-decoration: line-through;
+            }
+            
+        }
+
+
+        ul{
+            position: static;
+            background-color: transparent;
+            height: auto;
+            opacity: 1;
+            
+            
+        }
+
+        li{
+            padding: 5px 10px;
+            display: inline-block;
+            }
+            
+        }
+
+        
+
+    }

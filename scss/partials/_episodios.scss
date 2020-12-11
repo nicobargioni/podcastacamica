@@ -1,0 +1,38 @@
+.episodios{
+    background-color: blue;
+    width: 100%;
+    height: auto;
+    padding: 11px 16px;
+    position: relative;
+}
+
+.episodios h2{
+    margin-top: 20px;
+    margin-bottom: 21px;
+}
+
+.container{
+    position: relative;
+    z-index: 2;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.episodios::before, .episodios::after{
+    content: '';
+    background-color: blue;
+    transform: skewY(-5deg);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+}
+
+.episodios::after{
+    bottom: -120px;
+}
+
+.episodios::before{
+    top: -60px;
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$gradiante: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+
+/* .main .text-detail .line-through{
+    text-decoration: line-through;
+} */
+
+
+h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+    margin-bottom: 16px;
+}
+
+h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 42px;
+}
+
+p{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+a{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+    color: black;
+    
+}
+
+
+
+
